@@ -1,6 +1,19 @@
-﻿body {
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Manrope:wght@200;300&family=Public+Sans:wght@100&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+@font-face {
+    font-family: manrope;
+    src: url('Manrope-VariableFont_wght.ttf') format('truetype');
+}
+
+
+body 
+{
+    
     background-color: hsl(218, 23%, 16%);
-    font-family: Manrope;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 800;
 }
 #box_quote {
@@ -15,13 +28,16 @@
     justify-content: center;
     align-items: center;
     color: hsl(150, 100%, 66%);
+   
 }
 #quote_number {
     color: hsl(150, 100%, 66%);
+    
 }
 #quote {
     font-size: 28px;
     color:white;
+    
 }
 #button {
     color: hsl(193, 38%, 86%);
@@ -41,6 +57,12 @@ img {
     margin-left:auto;
     margin-right:auto;    
 }
+
+#img1
+{
+    width: 50%;
+}
+
 #img2{
     position: relative; 
     top: -20px;
@@ -52,3 +74,5 @@ img {
     box-shadow:0 0 4px hsl(150, 100%, 66%);
     opacity: 1;
 }
+
+
